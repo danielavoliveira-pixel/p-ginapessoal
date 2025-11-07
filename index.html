@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>daniela-formulário</title>
+        <style>
+            body{
+     font-family: Times;
+	 background-color: #836FFF;
+	 padding: 20px;
+}
+ 
+ .caixa-formulario{
+	 width: 400px;
+	 margin: 0 auto;
+	 
+	 background-color:#ffffff;
+	 border:1px solid #cccccc;
+	 padding: 25px;
+ } 
+ h1{
+	 text-align: center;
+	 color: #836FFF;
+ }
+ 
+ p{
+	 text-align: center;
+	 color: #836FFF;
+ }
+ 
+label,
+input,
+textarea,
+button{
+	display:block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+input,
+textarea { 
+    padding: 8px;
+}
+button{
+	margin-top: 20px;
+	padding: 10px;
+}
+        </style>
+   </head>
+    </body>
 
+    <div class="caixa-formulario">
+	    
+		<h1>FORMULÁRIO</h1>
+		<p>Deixe aqui a sua Dúvida</P>
+		
+		<form> 
+		<label for="nome-usuário"> 1.Nome:</label>
+		<input type="text" id="nome-usuário" placeholder="digite aqui seu nome...">
+		
+		
+		<form>
+		<label for="E.mail"> 2 .E.mail:<label>
+		<input type="text" id="E.mail" placeholder="digite aqui seu E.mail...">
+		
+		<label for="mensagem-usuário"> 3. mensagem:</label>
+		<textarea id="mensagem-usuário"></textarea>
+		
+		<button type="submit">Enviar</button>
+	
+	    </form>
+		    </div>
+    </body>
+</html>

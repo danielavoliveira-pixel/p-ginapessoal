@@ -1,0 +1,40 @@
+body{
+     font-family: Times;
+	 background-color: #836FFF;
+	 padding: 20px;
+}
+ 
+ .caixa-formulario{
+	 width: 400px;
+	 margin: 0 auto;
+	 
+	 background-color:#ffffff;
+	 border:1px solid #cccccc;
+	 padding: 25px;
+ } 
+ h1{
+	 text-align: center;
+	 color: #836FFF;
+ }
+ 
+ p{
+	 text-align: center;
+	 color: #836FFF;
+ }
+ 
+label,
+input,
+textarea,
+button{
+	display:block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+input,
+textarea { 
+    padding: 8px;
+}
+button{
+	margin-top: 20px;
+	padding: 10px;
+}
